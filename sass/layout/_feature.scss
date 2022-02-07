@@ -1,4 +1,4 @@
-.feature {
+.feature__section {
   background-color: var(--first-title-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -7,11 +7,11 @@
 .feature-list {
   display: flex;
 }
-.feature-item:not(last child) {
+.feature__item:not(last child) {
   margin-right: 30px;
 }
 
-.feature-link {
+.feature__link {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -22,7 +22,7 @@
   margin-bottom: 30px;
 }
 
-.feature-title {
+.feature__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -32,7 +32,7 @@
   margin-bottom: 10px;
 }
 
-.feature-text {
+.feature__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

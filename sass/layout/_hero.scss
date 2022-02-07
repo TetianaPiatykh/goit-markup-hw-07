@@ -1,4 +1,4 @@
-.hero {
+.hero__content {
   max-width: 1600px;
   height: 600px;
   margin-right: auto;
@@ -17,7 +17,7 @@
   background-size: cover;
 }
 
-.hero-title {
+.hero-title__text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -32,7 +32,7 @@
   margin: 0 auto;
 }
 
-.hero-btn {
+.hero__btn {
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;

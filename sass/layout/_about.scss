@@ -1,4 +1,4 @@
-.about {
+.about__section {
   background-color: var(--first-title-color);
   padding: 0px 215px 94px;
 }
@@ -7,7 +7,7 @@
   display: flex;
 }
 
-.about-title {
+.about__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -17,11 +17,14 @@
   margin-bottom: 50px;
 }
 
-.about-item {
+.about__item {
   position: relative;
+  &:not(last child) {
+    margin-right: 30px;
+  }
 }
 
-.about-list-title {
+.about-list__title {
   position: absolute;
   background: rgba(47, 48, 58, 0.8);
   width: 100%;
@@ -38,8 +41,4 @@
   text-transform: uppercase;
   color: #ffffff;
   padding: 27px;
-}
-
-.about-item:not(last child) {
-  margin-right: 30px;
 }
